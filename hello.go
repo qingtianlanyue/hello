@@ -2,8 +2,6 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/qingtianlanyue/hello/demo"
 )
 
 var x int8 = 10
@@ -18,9 +16,4 @@ func init() {
 
 func sayHi() {
 	fmt.Println("Hello World!")
-}
-
-func main() {
-	fmt.Println("你好，世界！")
-	fmt.Println(demo.Add(1, 2))
 }
